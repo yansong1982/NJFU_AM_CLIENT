@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="hello">Hello World, LoginActivity!</string>
+    <string name="login_title">登录</string>
+    <string name="login_id_title">登陆身份</string>
+    <string name="login_id_prompt">请选择登陆身份</string>
+    <string name="app_name">公寓管理系统</string>
+    <string name="community_num_title">小区号</string>
+    <string name="community_num_prompt">请选择小区号</string>
+    <string name="building_num_title">楼号</string>
+    <string name="building_num_prompt">请选择楼号</string>
+    <string name="password_title">密码</string>
+    <string name="username_title">用户名</string>
+    <string name="login">登录</string>
+    <string name="warning">警告</string>
+    <string name="admin_password_error">密码错误，请重新输入!</string>
+    <string name="admin_password_empty">密码不能为空!</string>
+    <string name="positive">确定</string>
+    <string name="save_warning">是否保存数据，并返回上层菜单？</string>
+    <string name="save_warning_positive">保存</string>
+    <string name="save_warning_negative">不保存</string>
+
+    <string-array name="login_id_array">
+        <item>管理员</item>
+        <item>学工处人员</item>
+        <item>学生</item>
+        <item>学生干部</item>
+        <item>维修工</item>
+    </string-array>
+
+    <string name="admin_work_title">""<xliff:g id="COMMUNITY">%1$s</xliff:g> 区 <xliff:g id="BUILDING">%2$s</xliff:g> #楼</string>
+    <string name="download">下载数据</string>
+    <string name="upload">上传数据</string>
+
+    <string-array name="admin_work_string_array">
+        <item>安全检查</item>
+        <item>卫生检查</item>
+        <item>公寓维修</item>
+        <item>突发事件</item>
+    </string-array>
+
+    <string name="security_checks_title">安全检查</string>
+    <string name="cleaning_checks_title">卫生检查</string>
+    <string name="checks_detail">""<xliff:g id="COMMUNITY">%1$s</xliff:g> 区 <xliff:g id="BUILDING">%2$s</xliff:g> #楼</string>
+    <string name="floor_title">请选择楼层</string>
+    <string name="unfinished_only_title">只显示未检查的宿舍</string>
+    <string name="update_time_prefix">更新时间: </string>
+    <string name="points">分</string>
+    <string name="all_floors">全部</string>
+    <string name="checks_detail_detail">""<xliff:g id="COMMUNITY">%1$s</xliff:g> 区 <xliff:g id="BUILDING">%2$s</xliff:g># 楼\n  <xliff:g id="ROOM">%3$s</xliff:g> 室</string>
+    <string name="main_radio_title_0">已检查，未发现问题</string>
+    <string name="main_radio_title_1">检查中发现如下问题</string>
+
+    <string-array name="security_checks_detail_string_array">
+        <item>违规使用电热杯、电炉子、电饭锅、电吹风等电器</item>
+        <item>使用明火点蜡烛、吸烟、焚烧杂物</item>
+        <item>私拉乱接电源线</item>
+        <item>留宿外来人员</item>
+        <item>人员离开不锁门</item>
+    </string-array>
+    <string-array name="cleaning_checks_detail_string_array">
+        <item>地面不整洁，有烟头杂物</item>
+        <item>桌面不整洁</item>
+        <item>床面不整洁，未叠被子</item>
+        <item>卫生间不干净，水池不干净</item>
+        <item>整体感官不干净</item>
+    </string-array>
+
+    <string name="deduct_points">-1 分 </string>
+    <string name="total_title">总计：</string>
+    <string name="checks_detail_total">""<xliff:g id="TOTAL">%1$s</xliff:g> 分 </string>
+    <string name="unfinished">未检查</string>
+    <string name="finished">已检查</string>
+    <string name="add_notes">添加备注</string>
+    <string name="delete_notes">删除备注</string>
+    <string name="edit_notes_hint">200字以内</string>
+    <string name="over_max_edit_toast">已经超过上限，请输入200以内字符</string>
+
+</resources>

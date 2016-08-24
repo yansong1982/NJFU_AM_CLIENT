@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/colors.xml
+**
+** Copyright 2008, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources>
+    <color name="white">#FFFFFFFF</color>
+    <color name="deep_green">#006F4F</color>
+    <!-- <color name="deep_green">#32CD32</color> -->
+    <color name="recording_time_remaining_text">#FFFF0033</color>
+    <color name="listview_hightlight">#FFEEAD0E</color>
+    <color name="listview_background">#AAFFFFFF</color>
+    <color name="review_left_bar_text">#FFFFFF</color>
+    <color name="listview_gray">#808A87</color>
+    <color name="normal_bg">#ffe5eff4</color>
+    
+    <color name="list_title_text">#f1ffff</color>
+    
+    <!--  
+    <color name="list_second_bg">#ffe4e1</color>
+    -->
+    
+    <!-- <color name="list_title_bg">#B0E2FF</color> -->
+    <color name="list_title_bg">#7ec0ee</color>
+    <color name="red">#FF0000</color>
+    <color name="royal_blue">#4169e1</color>
+    <color name="blue_text">#0000FF</color>
+    
+</resources>
